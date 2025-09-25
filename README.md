@@ -1,19 +1,64 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant weather application built with React that provides real-time weather information for any city.
 
-Currently, two official plugins are available:
+-----
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Weather-App
->>>>>>> c95bd6ebed20536aa8a32d224f9ed87d772e4534
-=======
-Your changes in the local repository
-=======
-Changes from the remote repository
->>>>>>> origin/main
->>>>>>> 848e7fca897f5ffb5dbf6b8efa1e3cc90fd5e711
+## Features
+
+  * **Current Weather Data:** Get up-to-date weather information for any city around the globe.
+  * **Search Functionality:** Easily search for a city to get its weather forecast.
+  * **Dynamic UI:** The background and icons change dynamically based on the weather conditions (hot, cold, or rainy).
+  * **Detailed Information:** Provides comprehensive data including temperature, humidity, min/max temperature, and what the weather feels like.
+  * **User-Friendly Interface:** A clean and intuitive user interface built with Material-UI.
+
+-----
+
+## Technologies Used
+
+  * **React:** A JavaScript library for building user interfaces.
+  * **Vite:** A fast build tool for modern web development.
+  * **Material-UI:** A popular React UI framework for faster and easier web development.
+  * **OpenWeatherMap API:** Used to fetch weather data.
+
+-----
+
+## Setup and Installation
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+You need to have Node.js and npm installed on your machine.
+
+### Installation
+
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/your_username/weather-app.git
+    ```
+2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+3.  Get a free API Key at [https://openweathermap.org/api](https://openweathermap.org/api)
+4.  Enter your API in `src/SearchBox.jsx`
+    ```javascript
+    const API_KEY = "YOUR_API_KEY";
+    ```
+5.  Run the app
+    ```sh
+    npm run dev
+    ```
+
+-----
+
+## Usage
+
+Simply type the name of a city in the search box and click the "Search" button. The weather information for the entered city will be displayed in a card below the search box.
+
+-----
+
+## Author
+
+  * **Dhyan Patel**
